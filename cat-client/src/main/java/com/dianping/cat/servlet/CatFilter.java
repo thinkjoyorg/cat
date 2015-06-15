@@ -31,6 +31,9 @@ import com.dianping.cat.message.internal.DefaultMessageManager;
 import com.dianping.cat.message.internal.DefaultTransaction;
 import com.dianping.cat.message.spi.MessageTree;
 
+/**
+ * 需要针对内部请求规范做进一步的约定化处理
+ */
 public class CatFilter implements Filter {
 	private static Map<MessageFormat, String> s_patterns = new LinkedHashMap<MessageFormat, String>();
 
